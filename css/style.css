@@ -1,18 +1,11 @@
-.axis path,
-.axis line {
-    fill: none;
-    stroke: black;
+.states {
+    fill: #FFF;
+    stroke: #3d3b3b;
     stroke-width: 1px;
-    shape-rendering: crispEdges;
 }
-
-.axis text {
-    font-family: sans-serif;
-    font-size: 0.9em;
-}
-
 .title {
-    font-family: sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 24px;
+    fill: #ffffff;
+    text-anchor: middle;
 }
