@@ -1,11 +1,48 @@
-.states {
-    fill: #FFF;
-    stroke: #3d3b3b;
+.map {
+    border: medium solid #2b0397;
+    margin: 5px 0 0 5px;
+}
+.background {
+    fill: #061023;
+}
+.chart {
+    float: right;
+    margin: 5px 5px 0 0;
+}
+.chartTitle {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 18px;
+    fill: #ffffff;
+    text-anchor: middle;
+}
+.chartBackground {
+    fill: #061023;
+}
+.chartFrame {
+    fill: none;
+    stroke: #2b0397;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #2b0397;
     stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 0.8em;
+    fill: #2b0397;
+}
+.states {
+    stroke: #2b0397;
+    stroke-width: 1.5px;
 }
 .title {
     font-family: 'Arial Black', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     fill: #ffffff;
     text-anchor: middle;
 }
