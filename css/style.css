@@ -1,13 +1,13 @@
 .map {
     border: medium solid #2b0397;
-    margin: 5px 0 0 5px;
+    margin: 5px 0 0 10px;
 }
 .background {
     fill: #061023;
 }
 .chart {
     float: right;
-    margin: 5px 5px 0 0;
+    margin: 5px 10px 0 0;
 }
 .chartTitle {
     font-family: 'Arial Black', sans-serif;
@@ -33,7 +33,7 @@
 }
 .axis text {
     font-family: 'Arial Black', sans-serif;
-    font-size: 0.8em;
+    font-size: 0.9em;
     fill: #2b0397;
 }
 .states {
@@ -45,4 +45,48 @@
     font-size: 18px;
     fill: #ffffff;
     text-anchor: middle;
+}
+.x-axis text {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 0.9em;
+    fill: #2b0397;        
+}
+.dropdown {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+option {
+    font-weight: normal;
+}
+.infolabel {    margin: 0 20px 0 0;    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #061023;
+    border: solid thin #2b0397;
+    padding: 5px 10px;
+    top: -75px;
+}
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    line-height: 1em;
+}
+.legendTitle {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 18px;
+    fill: #ffffff;
+}
+.legendItem{
+    font-family: 'Arial Black', sans-serif;
+    font-size: 10px;
+    fill: #ffffff;
 }
